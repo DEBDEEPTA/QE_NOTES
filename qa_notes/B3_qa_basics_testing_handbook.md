@@ -17,7 +17,10 @@ ___
 ![Level_of_testings.jpg](imgs/Level_of_testings.jpg)
 ### 4. TEST CLASSIFICATION
 ![test_classification.jpg](imgs/test_classification.jpg)
-#### 4.1 SMOKE VS SANITY TESTING
+![ret_vs_regt.png](imgs/ret_vs_regt.png)
+#### 4.1 Types of Regression Testing
+![reg_t_types.png](imgs/reg_t_types.png)
+#### 4.2 SMOKE VS SANITY TESTING
 
 | Aspect  | Smoke           | Sanity           |
 | ------- | --------------- | ---------------- |
@@ -25,6 +28,8 @@ ___
 | When    | New build       | After minor fix  |
 | Purpose | Build stability | Fix verification |
 | Depth   | Shallow         | Deep             |
+![somke_vs_sanity.png](imgs/somke_vs_sanity.png)
+![smoke_sanity_flow.png](imgs/smoke_sanity_flow.png)
 
 ### 5. MANUAL TESTING TYPES
 | Criteria             | White Box                                 | Black Box               | Gray Box                         |
@@ -40,3 +45,7 @@ ___
 * Black Box → Drive the car and see if it works
 * White Box → Open engine and check internal components
 * Gray Box → Drive car + check engine diagnostics
+
+### 6. ADHOC/MONKEY/GORRILA TEST
+![adhoc_t1.png](imgs/adhoc_t1.png)
+![adhoc_t2.png](imgs/adhoc_t2.png)

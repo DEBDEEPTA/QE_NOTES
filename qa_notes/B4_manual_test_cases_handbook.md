@@ -13,6 +13,60 @@ ___
 * **To depend on process rather than on a person** 
 
 ___
+### TEST CASE DEVELOPMENT FLOW
+``` markdown
+  Requirement Gathering
+          ↓
+  Requirement Analysis
+          ↓
+  Identify Test Scenarios
+          ↓
+  Design Test Conditions
+          ↓
+  Write Test Cases
+          ↓
+  Review Test Cases
+          ↓
+  Test Execution
+          ↓
+  Bug Reporting
+          ↓
+  Test Closure
+```
+### TEST CASE REVIEW FLOW
+```markdown
+Requirements Received
+        ↓
+Test Case Design by Tester
+        ↓
+Submit Test Cases to Test Lead
+        ↓
+Assign Reviewer
+        ↓
+Reviewer Reviews Test Cases
+ (Template + Header + Body Checks)
+        ↓
+Are Issues Found?
+     ↓           ↓
+   YES           NO
+    ↓             ↓
+Send Comments   Approve Test Cases
+to Tester            ↓
+    ↓         Test Lead Final Approval
+Tester Fixes Issues        ↓
+    ↓              Ready for Execution
+Resubmit Test Cases
+        ↓
+Re-Review by Reviewer
+        ↓
+Approved?
+     ↓       ↓
+    NO       YES
+    ↓         ↓
+Repeat Fix   Final Approval Mail
+Cycle              ↓
+            Start Test Execution
+```
 ### STANDARD TEST CASE TEMPLATE
 
 | Column Name               | Description                                      |
